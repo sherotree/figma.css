@@ -1,5 +1,5 @@
 {
-  "name": "figma.css",
+  "name": "@sherotree/figma.css",
   "version": "1.0.0",
   "description": "A CSS library for Figma Semantic Color Tokens",
   "main": "figma.css",
