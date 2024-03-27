@@ -1,0 +1,15 @@
+{
+  "name": "figma.css",
+  "version": "1.0.0",
+  "description": "A CSS library for Figma Semantic Color Tokens",
+  "main": "figma.css",
+  "style": "figma.css",
+  "files": [
+    "LICENSE.md",
+    "figma.css"
+  ],
+  "repository": "sherotree/figma.css",
+  "license": "MIT",
+  "bugs": "https://github.com/sherotree/figma.css/issues",
+  "homepage": "https://sherotree.github.io/figma.css"
+}
