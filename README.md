@@ -2,9 +2,6 @@
 
 > A CSS library for [Figma Semantic Color Tokens](https://figma.com/plugin-docs/css-variables/#list-of-all-available-color-tokens) that converts them to CSS variables.
 
-[![GitHub Workflow Status][github-actions-image]][github-actions-url]
-[![codecov][codecov-image]][codecov-url]
-
 [![npm][npm-image]][npm-url] [![license][license-image]][license-url]
 
 ## Features
@@ -25,11 +22,9 @@ npm install --save @sherotree/figma.css
 
 Next, you need to import the library into your JavaScript or TypeScript file:
 
-````sh
-
 ```js
 import "@sherotree/figma.css";
-````
+```
 
 This will make the CSS variables available in your project.
 
