@@ -6,7 +6,7 @@
 
 ## Features
 
-- 🚀Convert Figma color tokens to CSS variables
+- 🚀 Convert Figma color tokens to CSS variables
 - 💄 Support for light and dark themes
 - 🍱 Easy to integrate with any CSS-in-JS library
 
