@@ -1,6 +1,7 @@
 /*! figma.css v1.0.0 | MIT License | github.com/sherotree/figma.css */
 /* From https://figma.com/plugin-docs/css-variables/#list-of-all-available-color-tokens */
 
+:root,
 :root .figma-light,
 :root .light {
   --figma-color-bg: rgba(255, 255, 255, 1);

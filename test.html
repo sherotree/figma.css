@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Figma.css Test</title>
+    <link rel="stylesheet" href="figma.css" />
+    <style>
+      body {
+        background-color: var(--figma-color-bg);
+        color: var(--figma-color-text-brand);
+      }
+
+      .theme-switch-button {
+        padding: 10px 20px;
+        font-size: 1em;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: var(--figma-color-bg-component);
+        color: var(--figma-color-text);
+        transition: background-color 0.3s ease;
+      }
+
+      .theme-switch-button:hover {
+        background-color: var(--figma-color-bg-component-hover);
+      }
+
+      .example {
+        border: 1px solid var(--figma-color-border);
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 5px;
+      }
+
+      .example.danger {
+        background-color: var(--figma-color-bg-danger);
+        color: var(--figma-color-text);
+      }
+
+      .example.danger:hover {
+        background-color: var(--figma-color-bg-danger-hover);
+      }
+    </style>
+    <script>
+      function switchTheme() {
+        var body = document.body;
+        if (body.classList.contains("dark")) {
+          body.classList.remove("dark");
+          body.classList.add("light");
+        } else {
+          body.classList.remove("light");
+          body.classList.add("dark");
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <button class="theme-switch-button" onclick="switchTheme()">
+      Switch Theme
+    </button>
+    <h1>Welcome to Figma.css Test</h1>
+    <p>This is a test page for the Figma.css library.</p>
+    <div class="example">
+      <h2>Example Section</h2>
+      <p>
+        This section uses the --figma-color-border variable for its border
+        color.
+      </p>
+    </div>
+
+    <div class="example danger">
+      <h2>Danger Section</h2>
+      <p>
+        This section uses the --figma-color-bg-danger variable for its
+        background color, and --figma-color-text for its text color.
+      </p>
+    </div>
+  </body>
+</html>
